@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body{
+  background-color: rgb(32, 30, 30);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+table{
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-spacing: .5rem;
+  text-align: center;  
+}
+thead{
+  text-align: right;
+}
+ thead, td{
+  border: 2px solid grey;
+}
+td{
+  text-align: right;
+}
