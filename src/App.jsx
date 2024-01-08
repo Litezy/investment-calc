@@ -22,11 +22,13 @@ const App = () => {
       <div>
         <Header />
        <div className="w-full bg-t  pb-4">
-       <div className="w-[90%] flex items-center  mx-auto">
+       <div className="w-[90%] md:w-full md:text-center flex items-center  mx-auto">
           <UserInput input={inputs} setChange={handleChange} />
         </div>
        </div>
+       <div className="w-[100%]">
        {checkDuration ? <Results input={inputs}/> : <p className='text-white text-center'>Pls input a valid duration</p>}
+       </div>
       </div>
     )
   }
